@@ -1,7 +1,7 @@
 {% set name = "gtkwave" %}
-{% set version = "3.3.108" %}
+{% set version = "3.3.109" %}
 {% set build = 0 %}
-{% set sha256 = "ece447340442e7ad029713789552e8392b75dd3808c882ac5193d42fce55eb3b" %}
+{% set sha256 = "ca487e5e9b728086ba4de6581058d6c096a7771915163ef600f63d0e88c3c05d" %}
 
 package:
   name: {{ name }}
