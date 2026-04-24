@@ -1,6 +1,6 @@
 {% set name = "gtkwave" %}
 {% set version = "3.3.121" %}
-{% set build = 0 %}
+{% set build = 1 %}
 {% set sha256 = "5b05b6469bca675d9c9de60cf7ce8ad33afe13ef71aa29777898ced2ffe88397" %}
 
 package:
@@ -27,7 +27,7 @@ requirements:
     - gperf
     - glib
     - gtk2
-    - xz
+    - liblzma-devel
   run:
     - zlib
     - bzip2
